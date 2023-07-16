@@ -18,14 +18,14 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://139.196.107.129:3306/asbi_boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://xxx.xxx.xxx.xxx:3306/asbi_boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: rootlyj
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
     database: 4
-    host: 139.196.107.129
+    host: xxx.xxx.xxx.xxx
     port: 6379
     timeout: 5000
   # 文件上传
@@ -35,7 +35,7 @@ spring:
       max-file-size: 1MB
   # rabbitmq 信息
   rabbitmq:
-    host: 139.196.107.129
+    host: xxx.xxx.xxx.xxx
     username: admin
     password: admin
     port: 5672
