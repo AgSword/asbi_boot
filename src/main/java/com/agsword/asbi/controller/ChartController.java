@@ -184,7 +184,7 @@ public class ChartController {
     }
 
     /**
-     * 管理员编辑图表
+     * 管理员或本人编辑图表
      *
      * @param chartEditRequest
      * @param request

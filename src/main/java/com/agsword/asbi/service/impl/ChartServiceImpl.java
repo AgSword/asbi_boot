@@ -89,6 +89,7 @@ public class ChartServiceImpl extends ServiceImpl<ChartMapper, Chart> implements
         // 校验文件后缀
         String suffix = FileUtil.getSuffix(originalFilename);
         ThrowUtils.throwIf(!VALID_FILE_SUFFIX.contains(suffix), ErrorCode.PARAMS_ERROR, "不支持该类型文件");
+        //todo 文件类型，内容校验
 
         // 用户每秒限流
         boolean tryAcquireRateLimit = redisLimiterManager.doRateLimit("genChartByAi_" + loginUser.getId());

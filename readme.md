@@ -14,4 +14,5 @@
 1. 使用 Easy Excel 解析上传的XLSX文件并压缩为CSV文件，实测提高了20%的单次输入数据量，缩短了Token
 2. 利用令牌桶限流算法与Redisson实现简单且高效分布式限流
 3. 利用消息队列完成异步生成图表
-4. 
+
+cloud版本：https://github.com/AgSword/asbi_cloud
